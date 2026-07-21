@@ -44,3 +44,12 @@ Repo: https://github.com/tslAndy/EulerianFluidSim
 Repo: https://github.com/tslAndy/FlipLiquidGPU
 
 [![](https://img.youtube.com/vi/Vc5q7WPS4Dg/0.jpg)](https://www.youtube.com/watch?v=Vc5q7WPS4Dg)
+
+
+## Slime Mold Simulation
+- GPU based Slime Mold Simulation
+- ILGPU, Raylib
+  
+Repo: https://github.com/tslAndy/SlimeSim
+
+[![](https://img.youtube.com/vi/yl8N5paE2xg/0.jpg)](https://www.youtube.com/watch?v=yl8N5paE2xg)
