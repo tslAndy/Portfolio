@@ -27,3 +27,11 @@ Repo: https://github.com/tslAndy/Boids
 Repo: https://github.com/tslAndy/WarpGrid
 
 [![](https://img.youtube.com/vi/UhpW3lMCEa0/0.jpg)](https://www.youtube.com/watch?v=UhpW3lMCEa0)
+
+## Eulerian Fluid Simulation
+- GPU based Eulerian Fluid simulation (ILGPU, OpenCL)
+- Obstacles are supported
+
+Repo: https://github.com/tslAndy/EulerianFluidSim
+
+[![](https://img.youtube.com/vi/jZc8UK_pKiE/0.jpg)](https://www.youtube.com/watch?v=jZc8UK_pKiE)
