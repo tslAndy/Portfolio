@@ -35,3 +35,12 @@ Repo: https://github.com/tslAndy/WarpGrid
 Repo: https://github.com/tslAndy/EulerianFluidSim
 
 [![](https://img.youtube.com/vi/jZc8UK_pKiE/0.jpg)](https://www.youtube.com/watch?v=jZc8UK_pKiE)
+
+
+## FLIP Simulation
+- GPU based Fluid In Particle implementation
+- Extended version of Eulerian simulation
+
+Repo: https://github.com/tslAndy/FlipLiquidGPU
+
+[![](https://img.youtube.com/vi/Vc5q7WPS4Dg/0.jpg)](https://www.youtube.com/watch?v=Vc5q7WPS4Dg)
