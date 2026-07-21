@@ -53,3 +53,14 @@ Repo: https://github.com/tslAndy/FlipLiquidGPU
 Repo: https://github.com/tslAndy/SlimeSim
 
 [![](https://img.youtube.com/vi/yl8N5paE2xg/0.jpg)](https://www.youtube.com/watch?v=yl8N5paE2xg)
+
+
+## N-body Barnes-Hut
+- Multithreaded CPU-implementation of Barnes Hut algorithm
+- Implemented own unity-like job system (later was improved)
+- Objects are sorted by multithreaded merge sort by their Morton codes for improving space locality of quadtree
+
+Repo: https://github.com/tslAndy/Gravity
+
+[![](https://img.youtube.com/vi/AqEuBSJd-jQ/0.jpg)](https://www.youtube.com/watch?v=AqEuBSJd-jQ)
+
