@@ -64,3 +64,14 @@ Repo: https://github.com/tslAndy/Gravity
 
 [![](https://img.youtube.com/vi/AqEuBSJd-jQ/0.jpg)](https://www.youtube.com/watch?v=AqEuBSJd-jQ)
 
+
+## N-body GPU
+- LOD-based simulation of N-body problem in Unity with Compute Shader
+- Masses are transferred to textures
+- Textures are blurred with Gaussian blur
+- Several LOD (mipmaps) are created
+- Only 3x3 square on each LOD-level used for gravity computation
+
+Repo: https://github.com/tslAndy/GravComputeShader
+
+[![](https://img.youtube.com/vi/a2gq912Lm9w/0.jpg)](https://www.youtube.com/watch?v=a2gq912Lm9w)
