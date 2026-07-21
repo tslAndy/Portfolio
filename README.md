@@ -83,3 +83,13 @@ Repo: https://github.com/tslAndy/GravComputeShader
 Repo: https://github.com/tslAndy/Voxelizer
 
 [![](https://img.youtube.com/vi/Tbj0grPXC8U/0.jpg)](https://www.youtube.com/watch?v=Tbj0grPXC8U)
+
+## Voxel Editor
+- Simple voxel editor
+- Binary Meshing (main goal of this project)
+
+Repo: https://github.com/tslAndy/Voxel
+
+[![](https://img.youtube.com/vi/qh7dsT_-7LY/0.jpg)](https://www.youtube.com/watch?v=qh7dsT_-7LY)
+
+
