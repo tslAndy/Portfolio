@@ -97,6 +97,9 @@ Repo: https://github.com/tslAndy/Voxel
 
 Repo: https://github.com/tslAndy/Raymarch
 
+[![](https://img.youtube.com/vi/TwwSHPYmgD8/0.jpg)](https://www.youtube.com/watch?v=TwwSHPYmgD8)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 # Physics stuff
@@ -106,6 +109,9 @@ Repo: https://github.com/tslAndy/Raymarch
 
 Repo: https://github.com/tslAndy/Verlet
 
+[![](https://img.youtube.com/vi/8q6YdGlpN7Q/0.jpg)](https://www.youtube.com/watch?v=8q6YdGlpN7Q)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Physics
@@ -114,6 +120,9 @@ Repo: https://github.com/tslAndy/Verlet
 - Quickhull support
 
 Repo: https://github.com/tslAndy/Physics
+
+[![](https://img.youtube.com/vi/Y52Ldz2PnCw/0.jpg)](https://www.youtube.com/watch?v=Y52Ldz2PnCw)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -133,6 +142,8 @@ Repo: https://github.com/tslAndy/Gravity
 
 Repo: https://github.com/tslAndy/SoftBody
 
+[![](https://img.youtube.com/vi/yeHUV0iDEpo/0.jpg)](https://www.youtube.com/watch?v=yeHUV0iDEpo)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 # Other
@@ -143,6 +154,9 @@ Repo: https://github.com/tslAndy/SoftBody
 - For reducing trigs amount Binary Meshing is used
 
 Repo: https://github.com/tslAndy/MarchingSquares
+
+[![](https://img.youtube.com/vi/-OTAZTXqLnw/0.jpg)](https://www.youtube.com/watch?v=-OTAZTXqLnw)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -155,13 +169,15 @@ Repo: https://github.com/tslAndy/WarpGrid
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## Software Raterizer
+## Software Rasterizer
 - Simple Software Rasterizer
 - Occlusion & Frustum Culling
 - Hi-Z buffer optimization
 - Multithreaded rendering
 
 Repo: https://github.com/tslAndy/RastRefactor
+
+[![](https://img.youtube.com/vi/fpddzHvOMzo/0.jpg)](https://www.youtube.com/watch?v=fpddzHvOMzo)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -173,6 +189,9 @@ Repo: https://github.com/tslAndy/RastRefactor
 
 Repo: https://github.com/tslAndy/Durdoom
 
+[![](https://img.youtube.com/vi/y2-YEY0J8js/0.jpg)](https://www.youtube.com/watch?v=y2-YEY0J8js)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Survivors
@@ -182,12 +201,17 @@ Repo: https://github.com/tslAndy/Durdoom
 
 https://github.com/tslAndy/Survivors
 
+[![](https://img.youtube.com/vi/UZB8wT53WtA/0.jpg)](https://www.youtube.com/watch?v=UZB8wT53WtA)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Sand 1
 - First implementation of Noita-like falling sand
 
 Repo: https://github.com/tslAndy/OldSand
+
+[![](https://img.youtube.com/vi/3iZQmG9DUSc/0.jpg)](https://www.youtube.com/watch?v=3iZQmG9DUSc)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -200,6 +224,8 @@ Repo: https://github.com/tslAndy/OldSand
 
 Repo: https://github.com/tslAndy/Sand
 
+[![](https://img.youtube.com/vi/ufNKMC0gQvc/0.jpg)](https://www.youtube.com/watch?v=ufNKMC0gQvc)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Circle IK
@@ -207,12 +233,16 @@ Repo: https://github.com/tslAndy/Sand
 
 Repo: https://github.com/tslAndy/CircleIK
 
+[![](https://img.youtube.com/vi/HTjGrW2Etiw/0.jpg)](https://www.youtube.com/watch?v=HTjGrW2Etiw)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## FABRIK IK
 - 2D FABRIK IK with angle limitation
 
 Repo: https://github.com/tslAndy/FabrikIK
+
+[![](https://img.youtube.com/vi/towby8B63UE/0.jpg)](https://www.youtube.com/watch?v=towby8B63UE)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,12 +253,16 @@ Repo: https://github.com/tslAndy/FabrikIK
 
 Repo: https://github.com/tslAndy/Dual-Grid
 
+[![](https://img.youtube.com/vi/GSTsdhGxDWE/0.jpg)](https://www.youtube.com/watch?v=GSTsdhGxDWE)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Voronoi
 - N^2 voronoi implementation
 
 Repo: https://github.com/tslAndy/Voronoi
+
+[![](https://img.youtube.com/vi/FHGf70wENcg/0.jpg)](https://www.youtube.com/watch?v=FHGf70wENcg)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -237,25 +271,36 @@ Repo: https://github.com/tslAndy/Voronoi
 ## L-system trees
 Repo: https://github.com/tslAndy/LSystemTree
 
+[![](https://img.youtube.com/vi/S-zU_lngq4Q/0.jpg)](https://www.youtube.com/watch?v=S-zU_lngq4Q)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Circle Trees
 Repo: https://github.com/tslAndy/CircleTree
+
+[![](https://img.youtube.com/vi/cjF4IYcjbIs/0.jpg)](https://www.youtube.com/watch?v=cjF4IYcjbIs)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Fractal Trees
 Repo: https://github.com/tslAndy/FractalTree
 
+[![](https://img.youtube.com/vi/SWnHI6NVRRk/0.jpg)](https://www.youtube.com/watch?v=SWnHI6NVRRk)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Colonization Tree
 Repo: https://github.com/tslAndy/ColonizationTree
 
+[![](https://img.youtube.com/vi/AZTfV8RlQWg/0.jpg)](https://www.youtube.com/watch?v=AZTfV8RlQWg)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Transport Tree
 Repo: https://github.com/tslAndy/TransportTree
+
+[![](https://img.youtube.com/vi/IXi7ywQFxxg/0.jpg)](https://www.youtube.com/watch?v=IXi7ywQFxxg)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -272,6 +317,8 @@ Repo: https://github.com/tslAndy/TransportTree
 - D* Lite
 
 Repo: https://github.com/tslAndy/AStar
+
+[![](https://img.youtube.com/vi/MRuAWzU31ME/0.jpg)](https://www.youtube.com/watch?v=MRuAWzU31ME)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
