@@ -266,10 +266,10 @@ Repo: https://github.com/tslAndy/TransportTree
 - Implementation of several A* algorithms
 - Basic A*
 - JPS
-- Cached JPS (improved complexity from original O(N^2) to O(n))
+- Precalculated JPS (improved complexity from original O(N^2) to O(n))
+- HPA
 - LPA*
 - D* Lite
-- Binary Heap (4-d heap) 
 
 Repo: https://github.com/tslAndy/AStar
 
