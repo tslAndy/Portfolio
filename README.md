@@ -148,6 +148,26 @@ Repo: https://github.com/tslAndy/SoftBody
 
 # Other
 
+## Timeroll
+- Time rewinding system in Unity
+- Three types of operations are supported
+  - Recording
+  - Rewind Soft (rewinding back without snapshots deletion)
+  - Rewind Hard (rewinding back with snapshots deletion)
+  - Replay (play forward from current snapshot)
+- Continuous
+  - Continuous snapshots are taken with user-defined delay and limited in amount. Snapshots are stored in ring buffer, so overwriting old entries is easy.
+  - Between snapshots used interpolation.
+  - Interpolation, taking snapshot and restoring state are defined by user (in that way system is more flexible)
+- Discrete
+  - User register event snapshot
+  - Events are handled by Undo/Redo operations (also defined by user)
+
+Repo: https://github.com/tslAndy/Timeroll
+
+[![](https://img.youtube.com/vi/ZPSvGTJPMiw/0.jpg)](https://www.youtube.com/watch?v=ZPSvGTJPMiw)
+
+
 ## Marching Squares
 - Metaballs implemented with marching squares
 - Triangles for rendering are generated in multithread
