@@ -99,6 +99,14 @@ Repo: https://github.com/tslAndy/Raymarch
 
 [![](https://img.youtube.com/vi/TwwSHPYmgD8/0.jpg)](https://www.youtube.com/watch?v=TwwSHPYmgD8)
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Cell Shading
+- Simple cell shading in Unity URP Shader Graph
+
+Repo: https://github.com/tslAndy/Fur
+
+[![](https://img.youtube.com/vi/M_2xZsWtEO8/0.jpg)](https://www.youtube.com/watch?v=M_2xZsWtEO8)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
