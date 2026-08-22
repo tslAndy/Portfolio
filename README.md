@@ -5,6 +5,26 @@ Images are links to youtube with project showcase.
 
 # GPU stuff
 
+## Ray tracing
+- Basic raytracing in Unity Compute Shaders
+- Two types of BVH
+  - BVH containing objects boxes, built with Morton codes
+  - BVH for model triangles, built with optimized SAH
+- Two types of Next Event Estimation
+  - Basic version, MIS. Trace additional ray to random triangle.
+  - More accurate version with RIS. Creates several possible rays, then select one by it's weight.
+- Shared between objects for reducing amount of data transferred to GPU 
+  - Meshes
+  - Materials
+  - BVH for triangles
+- Universal simple for packing custom material data (max 60 bytes). On shader side should be unpacked.
+
+Repo: https://github.com/tslAndy/Raytrace
+
+![image info](./Screenshot_20260822_173745.png)
+
+
+
 ## Black Hole 
 - Black hole simulation on Unity with Compute Shaders
 - Gas disk is generated with Worley and Perlin noise
