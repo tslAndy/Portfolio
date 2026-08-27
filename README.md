@@ -21,9 +21,14 @@ Images are links to youtube with project showcase.
 
 Repo: https://github.com/tslAndy/Raytrace
 
-![image info](./Screenshot_20260822_173745.png)
+![image info](./Screenshot_20260827_212056.png)
 
+## Volumetric Rendering
+- Basic volumetric rendering with Compute Shaders
 
+Repo: https://github.com/tslAndy/Volumetric
+
+[![](https://img.youtube.com/vi/j3Zw2iPhUJE/0.jpg)](https://www.youtube.com/watch?v=j3Zw2iPhUJE)
 
 ## Black Hole 
 - Black hole simulation on Unity with Compute Shaders
