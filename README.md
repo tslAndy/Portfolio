@@ -23,6 +23,18 @@ Repo: https://github.com/tslAndy/Raytrace
 
 ![image info](./Screenshot_20260827_212056.png)
 
+## Radiance Cascades
+- Radiance Cascades implementation in Compute Shaders
+- Raycasting is sped up with GPU built SDF (log N time) 
+- Basic version use preaveraging (only two cascade textures implemented as arrays with size 1/4 of original texture)
+- Another version use direction first layout and preaveraging (two cascades, full size and quarter size). On my GPU it's slower than original version (may be because my GPU is integrated)
+- Increased raycasting radius used as bilinear fix. It didn't allow to fully mitigate circles, but looks much better.
+
+[![](https://img.youtube.com/vi/R0g4GFdLCNY/0.jpg)](https://www.youtube.com/watch?v=R0g4GFdLCNY)
+
+Repo: https://github.com/tslAndy/Cascades
+
+
 ## Volumetric Rendering
 - Basic volumetric rendering with Compute Shaders
 
