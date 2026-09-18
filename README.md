@@ -30,10 +30,9 @@ Repo: https://github.com/tslAndy/Raytrace
 - Another version use direction first layout and preaveraging (two cascades, full size and quarter size). On my GPU it's slower than original version (may be because my GPU is integrated)
 - Increased raycasting radius used as bilinear fix. It didn't allow to fully mitigate circles, but looks much better.
 
-[![](https://img.youtube.com/vi/R0g4GFdLCNY/0.jpg)](https://www.youtube.com/watch?v=R0g4GFdLCNY)
-
 Repo: https://github.com/tslAndy/Cascades
 
+[![](https://img.youtube.com/vi/R0g4GFdLCNY/0.jpg)](https://www.youtube.com/watch?v=R0g4GFdLCNY)
 
 ## Volumetric Rendering
 - Basic volumetric rendering with Compute Shaders
