@@ -340,6 +340,19 @@ Repo: https://github.com/tslAndy/Voronoi
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+## Bezier
+Simple bezier curves editor
+3 points modes support:
+- Broken Points
+- Tangent Aligned
+- Tangent Symmetric 
+
+Repo: https://github.com/tslAndy/Bezier
+
+[![](https://img.youtube.com/vi/S5ll_y1lUzc/0.jpg)](https://www.youtube.com/watch?v=S5ll_y1lUzc)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 # Trees
 
 ## L-system trees
