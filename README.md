@@ -192,6 +192,16 @@ Repo: https://github.com/tslAndy/SoftBody
 
 # Other
 
+## 2D GJK + EPA
+- Implementation of GJK and EPA for collision detection and resolving
+
+Repo: https://github.com/tslAndy/GJK
+
+[![](https://img.youtube.com/vi/sfQyctKPglE/0.jpg)](https://www.youtube.com/watch?v=sfQyctKPglE)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Timeroll
 - Time rewinding system in Unity
 - Three types of operations are supported
