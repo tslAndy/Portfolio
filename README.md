@@ -52,6 +52,15 @@ Repo: https://github.com/tslAndy/BlackHole
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+## Aurora shader
+- Simple aurora borealis rendering with Perlin noise and volumetric raymarching
+
+Repo: https://github.com/tslAndy/Aurora
+
+[![](https://img.youtube.com/vi/YE_Fh4FuGYE/0.jpg)](https://www.youtube.com/watch?v=YE_Fh4FuGYE)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Boids
 - Boids algorithm implementation on the GPU
 - Raylib for rendering
