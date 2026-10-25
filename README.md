@@ -21,6 +21,7 @@ Images are links to youtube with project showcase.
 
 Repo: https://github.com/tslAndy/Raytrace
 
+(Screenshot, not a link)
 ![image info](./Screenshot_20260827_212056.png)
 
 ## Radiance Cascades
@@ -78,6 +79,16 @@ Repo: https://github.com/tslAndy/Atmosphere
 Repo: https://github.com/tslAndy/Boids
 
 [![](https://img.youtube.com/vi/7xeWGgYISzI/0.jpg)](https://www.youtube.com/watch?v=7xeWGgYISzI)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Particle Life
+- Same backend as in boids algorithm
+
+Repo: https://github.com/tslAndy/ParticleLife
+
+Screenshot, not a link. Because of driver problem could not record video.
+![image info](./particlelife.png) 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
