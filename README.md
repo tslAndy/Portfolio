@@ -57,7 +57,7 @@ Repo: https://github.com/tslAndy/BlackHole
 
 Repo: https://github.com/tslAndy/Aurora
 
-[![](https://img.youtube.com/vi/YE_Fh4FuGYE/0.jpg)](https://www.youtube.com/watch?v=YE_Fh4FuGYE)
+[![](https://img.youtube.com/vi/2jf9wXUALuQ/0.jpg)](https://www.youtube.com/watch?v=2jf9wXUALuQ)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
