@@ -61,6 +61,15 @@ Repo: https://github.com/tslAndy/Aurora
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+## Atmosphere Rendering
+- Atmosphere rendering with LUT for acceleration
+
+Repo: https://github.com/tslAndy/Atmosphere
+
+[![](https://img.youtube.com/vi/u2EjnY8i9Ms/0.jpg)](https://www.youtube.com/watch?v=u2EjnY8i9Ms)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Boids
 - Boids algorithm implementation on the GPU
 - Raylib for rendering
