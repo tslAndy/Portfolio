@@ -1,11 +1,115 @@
 # Portfolio
 
-List of my projects implemented in Unity or with Raylib.
-Images are links to youtube with project showcase.
+Hello! Thank you for checking out my portfolio. Below the TLDR list there are more specific descriptions of projects and videos. Projects are implemented in Unity or Raylib. 
+
+
+
+TLDR:
+
+- **GPU**
+  
+  - Raytracing
+  
+  - Radiance Cascades
+  
+  - Volumetric Rendering
+  
+  - Black Hole
+  
+  - Aurora Borealis
+  
+  - Atmosphere
+  
+  - Boids
+  
+  - Particle Life
+  
+  - Eulerian Fluid
+  
+  - FLIP Fluid
+  
+  - Slime Mold
+  
+  - N-Body LOD
+  
+  - Voxel Ray Traversal
+  
+  - Voxel Editor
+  
+  - Raymarching
+  
+  - Cell Shading
+
+
+
+- **Physics**
+  
+  - Verlet Engine
+  
+  - 2D physics engine
+  
+  - GJK + EPA
+  
+  - Soft Body
+  
+  - N-body Barnes-Hut
+
+
+
+- **Uncategorized**
+  
+  - Timeroll
+  
+  - Marching Squares 
+  
+  - Warp Grid 
+  
+  - Bridge Simulator 
+  
+  - Software Rasterizer 
+  
+  - Wolfenstein-like Raycaster 
+  
+  - ECS Survivors-like game 
+  
+  - Falling Sand Game (old version)
+  
+  - Falling Sand Game (new version)
+  
+  - Circle Inverse Kinematics 
+  
+  - FABRIK Inverse Kinematics
+  
+  - Multilayered Dual Grid 
+  
+  - Voronoi generator with Poisson disc sampling 
+  
+  - Bezier Curves drawing 
+
+
+
+- **Trees** 
+  
+  - L-System trees 
+  - Circle trees 
+  - Fractal trees 
+  - Colonization tree 
+  - Transport trees 
+
+
+
+- **DSA** 
+  
+  - A* family algorithms 
+  - Unity-like job system 
+  - Bitmap Roaring 
+
+
 
 # GPU stuff
 
 ## Ray tracing
+
 - Basic raytracing in Unity Compute Shaders
 - Two types of BVH
   - BVH containing objects boxes, built with Morton codes
@@ -21,10 +125,10 @@ Images are links to youtube with project showcase.
 
 Repo: https://github.com/tslAndy/Raytrace
 
-(Screenshot, not a link)
-![image info](./Screenshot_20260827_212056.png)
+![image info](./Images/Raytrace.png)
 
 ## Radiance Cascades
+
 - Radiance Cascades implementation in Compute Shaders
 - Raycasting is sped up with GPU built SDF (log N time) 
 - Basic version use preaveraging (only two cascade textures implemented as arrays with size 1/4 of original texture)
@@ -33,96 +137,108 @@ Repo: https://github.com/tslAndy/Raytrace
 
 Repo: https://github.com/tslAndy/Cascades
 
-[![](https://img.youtube.com/vi/R0g4GFdLCNY/0.jpg)](https://www.youtube.com/watch?v=R0g4GFdLCNY)
+Video:
+
+[![](./Images/Cascades.png)](https://www.youtube.com/watch?v=R0g4GFdLCNY)
 
 ## Volumetric Rendering
+
 - Basic volumetric rendering with Compute Shaders
 
 Repo: https://github.com/tslAndy/Volumetric
 
+Video:
+
 [![](https://img.youtube.com/vi/nXv9PXc2T7M/0.jpg)](https://www.youtube.com/watch?v=nXv9PXc2T7M)
 
-## Black Hole 
+## Black Hole
+
 - Black hole simulation on Unity with Compute Shaders
 - Gas disk is generated with Worley and Perlin noise
 - Disk rendered with volumetric rendering
 
 Repo: https://github.com/tslAndy/BlackHole
 
-[![](https://img.youtube.com/vi/hWAEQB-2bAU/0.jpg)](https://www.youtube.com/watch?v=hWAEQB-2bAU)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/BlackHole.png)](https://www.youtube.com/watch?v=hWAEQB-2bAU)
 
 ## Aurora shader
+
 - Simple aurora borealis rendering with Perlin noise and volumetric raymarching
 
 Repo: https://github.com/tslAndy/Aurora
 
-[![](https://img.youtube.com/vi/2jf9wXUALuQ/0.jpg)](https://www.youtube.com/watch?v=2jf9wXUALuQ)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Aurora.png)](https://www.youtube.com/watch?v=2jf9wXUALuQ)
 
 ## Atmosphere Rendering
-- Atmosphere rendering with LUT for acceleration
+
+- Atmosphere rendering
+- LUT for acceleration
 
 Repo: https://github.com/tslAndy/Atmosphere
 
-[![](https://img.youtube.com/vi/u2EjnY8i9Ms/0.jpg)](https://www.youtube.com/watch?v=u2EjnY8i9Ms)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Atmosphere.png)](https://www.youtube.com/watch?v=u2EjnY8i9Ms)
 
 ## Boids
+
 - Boids algorithm implementation on the GPU
 - Raylib for rendering
 - ILGPU for OpenCL usage (other backends such as CUDA can be used aswell) 
 
 Repo: https://github.com/tslAndy/Boids
 
-[![](https://img.youtube.com/vi/7xeWGgYISzI/0.jpg)](https://www.youtube.com/watch?v=7xeWGgYISzI)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Boids.png)](https://www.youtube.com/watch?v=7xeWGgYISzI)
 
 ## Particle Life
+
 - Same backend as in boids algorithm
 
 Repo: https://github.com/tslAndy/ParticleLife
 
-Screenshot, not a link. Because of driver problem could not record video.
-![image info](./particlelife.png) 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+![image info](./Images/Life.png) 
 
 ## Eulerian Fluid Simulation
+
 - GPU based Eulerian Fluid simulation (ILGPU, OpenCL)
 - Obstacles are supported
 
 Repo: https://github.com/tslAndy/EulerianFluidSim
 
-[![](https://img.youtube.com/vi/jZc8UK_pKiE/0.jpg)](https://www.youtube.com/watch?v=jZc8UK_pKiE)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Eulerian.png)](https://www.youtube.com/watch?v=jZc8UK_pKiE)
 
 ## FLIP Simulation
+
 - GPU based Fluid In Particle implementation
 - Extended version of Eulerian simulation
 
 Repo: https://github.com/tslAndy/FlipLiquidGPU
 
-[![](https://img.youtube.com/vi/Vc5q7WPS4Dg/0.jpg)](https://www.youtube.com/watch?v=Vc5q7WPS4Dg)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/FLIP.png)](https://www.youtube.com/watch?v=Vc5q7WPS4Dg)
 
 ## Slime Mold Simulation
+
 - GPU based Slime Mold Simulation
 - ILGPU, Raylib
-  
+
 Repo: https://github.com/tslAndy/SlimeSim
 
-[![](https://img.youtube.com/vi/yl8N5paE2xg/0.jpg)](https://www.youtube.com/watch?v=yl8N5paE2xg)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Slime.png)](https://www.youtube.com/watch?v=yl8N5paE2xg)
 
 ## N-body GPU
+
 - LOD-based simulation of N-body problem in Unity with Compute Shader
 - Masses are transferred to textures
 - Textures are blurred with Gaussian blur
@@ -131,30 +247,33 @@ Repo: https://github.com/tslAndy/SlimeSim
 
 Repo: https://github.com/tslAndy/GravComputeShader
 
-[![](https://img.youtube.com/vi/a2gq912Lm9w/0.jpg)](https://www.youtube.com/watch?v=a2gq912Lm9w)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/GravCompute.png)](https://www.youtube.com/watch?v=a2gq912Lm9w)
 
 ## Amanatides and Woo's fast Voxel Traversal
+
 - Implementaion of voxel ray traversal in Compute Shaders
 
 Repo: https://github.com/tslAndy/Voxelizer
 
-[![](https://img.youtube.com/vi/Tbj0grPXC8U/0.jpg)](https://www.youtube.com/watch?v=Tbj0grPXC8U)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Amantides.png)](https://www.youtube.com/watch?v=Tbj0grPXC8U)
 
 ## Voxel Editor
+
 - Simple voxel editor
 - Binary Meshing (main goal of this project)
 
 Repo: https://github.com/tslAndy/Voxel
 
-[![](https://img.youtube.com/vi/qh7dsT_-7LY/0.jpg)](https://www.youtube.com/watch?v=qh7dsT_-7LY)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/VoxelEditor.png)](https://www.youtube.com/watch?v=qh7dsT_-7LY)
 
 ## Raymarching
+
 - SDF Raymarching with Unity and Compute Shaders
 - For learining purposes shape operations (union, difference, intersection, mix) are implemented through bytecode.
 - In the inspector created tree-like data structure (expression tree), after it get converted to bytecode which get transferred to GPU
@@ -162,76 +281,80 @@ Repo: https://github.com/tslAndy/Voxel
 
 Repo: https://github.com/tslAndy/Raymarch
 
-[![](https://img.youtube.com/vi/TwwSHPYmgD8/0.jpg)](https://www.youtube.com/watch?v=TwwSHPYmgD8)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Raymarch.png)](https://www.youtube.com/watch?v=TwwSHPYmgD8)
 
 ## Cell Shading
+
 - Simple cell shading in Unity URP Shader Graph
 
 Repo: https://github.com/tslAndy/Fur
 
-[![](https://img.youtube.com/vi/M_2xZsWtEO8/0.jpg)](https://www.youtube.com/watch?v=M_2xZsWtEO8)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/CellShading.png)](https://www.youtube.com/watch?v=M_2xZsWtEO8)
 
 # Physics stuff
 
 ## Verlet Integration
+
 - Rope implemented with verlet integration
 
 Repo: https://github.com/tslAndy/Verlet
 
-[![](https://img.youtube.com/vi/8q6YdGlpN7Q/0.jpg)](https://www.youtube.com/watch?v=8q6YdGlpN7Q)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Verlet.png)](https://www.youtube.com/watch?v=8q6YdGlpN7Q)
 
 ## Physics
+
 - Simple physics engine with different colliders support
 - Concave polygons support
 - Quickhull support
 
 Repo: https://github.com/tslAndy/Physics
 
-[![](https://img.youtube.com/vi/Y52Ldz2PnCw/0.jpg)](https://www.youtube.com/watch?v=Y52Ldz2PnCw)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Physics.png)](https://www.youtube.com/watch?v=Y52Ldz2PnCw)
 
 ## N-body Barnes-Hut
+
 - Multithreaded CPU-implementation of Barnes Hut algorithm
 - Implemented own unity-like job system (later was improved)
 - Objects are sorted by multithreaded merge sort by their Morton codes for improving space locality of quadtree
 
 Repo: https://github.com/tslAndy/Gravity
 
-[![](https://img.youtube.com/vi/AqEuBSJd-jQ/0.jpg)](https://www.youtube.com/watch?v=AqEuBSJd-jQ)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Gravity.png)](https://www.youtube.com/watch?v=AqEuBSJd-jQ)
 
-## Soft Body 
+## Soft Body
+
 - Simple soft body implementation
 
 Repo: https://github.com/tslAndy/SoftBody
 
-[![](https://img.youtube.com/vi/yeHUV0iDEpo/0.jpg)](https://www.youtube.com/watch?v=yeHUV0iDEpo)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
-# Other
+[![](./Images/SoftBody.png)](https://www.youtube.com/watch?v=yeHUV0iDEpo)
 
 ## 2D GJK + EPA
+
 - Implementation of GJK and EPA for collision detection and resolving
 
 Repo: https://github.com/tslAndy/GJK
 
-[![](https://img.youtube.com/vi/sfQyctKPglE/0.jpg)](https://www.youtube.com/watch?v=sfQyctKPglE)
+Video:
 
+[![](./Images/GJK.png)](https://www.youtube.com/wat
 
---------------------------------------------------------------------------------------------------------------------------------------------
+# Other
 
 ## Timeroll
+
 - Time rewinding system in Unity
 - Three types of operations are supported
   - Recording
@@ -248,41 +371,44 @@ Repo: https://github.com/tslAndy/GJK
 
 Repo: https://github.com/tslAndy/Timeroll
 
+Video:
+
 [![](https://img.youtube.com/vi/ZPSvGTJPMiw/0.jpg)](https://www.youtube.com/watch?v=ZPSvGTJPMiw)
 
-
 ## Marching Squares
+
 - Metaballs implemented with marching squares
 - Triangles for rendering are generated in multithread
 - For reducing trigs amount Binary Meshing is used
 
 Repo: https://github.com/tslAndy/MarchingSquares
 
-[![](https://img.youtube.com/vi/-OTAZTXqLnw/0.jpg)](https://www.youtube.com/watch?v=-OTAZTXqLnw)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/MarchingSquares.png)](https://www.youtube.com/watch?v=-OTAZTXqLnw)
 
 ## Warp Grid
+
 - Simple warp grid implementation, nothing special
 
 Repo: https://github.com/tslAndy/WarpGrid
 
-[![](https://img.youtube.com/vi/UhpW3lMCEa0/0.jpg)](https://www.youtube.com/watch?v=UhpW3lMCEa0)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/WarpGrid.png)](https://www.youtube.com/watch?v=UhpW3lMCEa0)
 
-## Bridge 
+## Bridge
+
 - Simple Bridge game
 
 Repo: https://github.com/tslAndy/Bridge
 
-[![](https://img.youtube.com/vi/3AqXc3j6b8Y/0.jpg)](https://www.youtube.com/watch?v=3AqXc3j6b8Y)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
+[![](./Images/Bridge.png)](https://www.youtube.com/watch?v=3AqXc3j6b8Y)
 
 ## Software Rasterizer
+
 - Simple Software Rasterizer
 - Occlusion & Frustum Culling
 - Hi-Z buffer optimization
@@ -290,11 +416,12 @@ Repo: https://github.com/tslAndy/Bridge
 
 Repo: https://github.com/tslAndy/RastRefactor
 
-[![](https://img.youtube.com/vi/fpddzHvOMzo/0.jpg)](https://www.youtube.com/watch?v=fpddzHvOMzo)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Rasterizer.png)](https://www.youtube.com/watch?v=fpddzHvOMzo)
 
 ## Durdoom
+
 - Advanced implementation of Wolfenstein-like raycaster
 - Sloped blocks support
 - Transparent textures
@@ -302,33 +429,34 @@ Repo: https://github.com/tslAndy/RastRefactor
 
 Repo: https://github.com/tslAndy/Durdoom
 
-[![](https://img.youtube.com/vi/y2-YEY0J8js/0.jpg)](https://www.youtube.com/watch?v=y2-YEY0J8js)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Doom.png)](https://www.youtube.com/watch?v=y2-YEY0J8js)
 
 ## Survivors
+
 - Survivors-like project implemented in Arch ECS
 - Main goal of project was to learn Entity Component System paradigm
 - Learned basics of Autofac DI
 
 https://github.com/tslAndy/Survivors
 
-[![](https://img.youtube.com/vi/UZB8wT53WtA/0.jpg)](https://www.youtube.com/watch?v=UZB8wT53WtA)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Survivors.png)](https://www.youtube.com/watch?v=UZB8wT53WtA)
 
 ## Sand 1
+
 - First implementation of Noita-like falling sand
 
 Repo: https://github.com/tslAndy/OldSand
 
+Video:
+
 [![](https://img.youtube.com/vi/3iZQmG9DUSc/0.jpg)](https://www.youtube.com/watch?v=3iZQmG9DUSc)
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Sand 2
+
 - Improved implementation
 - Chunked multithreaded update
 - Dirty rect for excluding empty space in chunks
@@ -337,103 +465,113 @@ Repo: https://github.com/tslAndy/OldSand
 
 Repo: https://github.com/tslAndy/Sand
 
-[![](https://img.youtube.com/vi/ufNKMC0gQvc/0.jpg)](https://www.youtube.com/watch?v=ufNKMC0gQvc)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Sand.png)](https://www.youtube.com/watch?v=ufNKMC0gQvc)
 
 ## Circle IK
+
 - 2D Inverse Kinematics with circles
 
 Repo: https://github.com/tslAndy/CircleIK
 
-[![](https://img.youtube.com/vi/HTjGrW2Etiw/0.jpg)](https://www.youtube.com/watch?v=HTjGrW2Etiw)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/CircleIK.png)](https://www.youtube.com/watch?v=HTjGrW2Etiw)
 
 ## FABRIK IK
+
 - 2D FABRIK IK with angle limitation
 
 Repo: https://github.com/tslAndy/FabrikIK
 
-[![](https://img.youtube.com/vi/towby8B63UE/0.jpg)](https://www.youtube.com/watch?v=towby8B63UE)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/FabrikIK.png)](https://www.youtube.com/watch?v=towby8B63UE)
 
-## Dual Grid 
+## Dual Grid
+
 - Advanced Dual Grid implementation in Unity
-- While standard dual grid support 2 types of tiles, current implementation allow to use as mych tiles as necessary (all on the same tilemap)
+- While standard dual grid support 2 types of tiles, current implementation allow to use as much tiles as necessary (all on the same tilemap)
 - Algorithm use 3 additional tilemaps for selecting corresponding border tiles, but interaction only with main one (border tiles are selected automatically)
 
 Repo: https://github.com/tslAndy/Dual-Grid
 
+Video:
+
 [![](https://img.youtube.com/vi/GSTsdhGxDWE/0.jpg)](https://www.youtube.com/watch?v=GSTsdhGxDWE)
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Voronoi
+
 - N^2 voronoi implementation
 
 Repo: https://github.com/tslAndy/Voronoi
 
-[![](https://img.youtube.com/vi/FHGf70wENcg/0.jpg)](https://www.youtube.com/watch?v=FHGf70wENcg)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Voronoi.png)](https://www.youtube.com/watch?v=FHGf70wENcg)
 
 ## Bezier
+
 Simple bezier curves editor
 3 points modes support:
+
 - Broken Points
 - Tangent Aligned
 - Tangent Symmetric 
 
 Repo: https://github.com/tslAndy/Bezier
 
-[![](https://img.youtube.com/vi/S5ll_y1lUzc/0.jpg)](https://www.youtube.com/watch?v=S5ll_y1lUzc)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/Bezier.png)](https://www.youtube.com/watch?v=S5ll_y1lUzc)
 
 # Trees
 
 ## L-system trees
+
 Repo: https://github.com/tslAndy/LSystemTree
 
-[![](https://img.youtube.com/vi/S-zU_lngq4Q/0.jpg)](https://www.youtube.com/watch?v=S-zU_lngq4Q)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/lsystemtree.png)](https://www.youtube.com/watch?v=S-zU_lngq4Q)
 
 ## Circle Trees
+
 Repo: https://github.com/tslAndy/CircleTree
 
-[![](https://img.youtube.com/vi/cjF4IYcjbIs/0.jpg)](https://www.youtube.com/watch?v=cjF4IYcjbIs)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/CircleTree.png)](https://www.youtube.com/watch?v=cjF4IYcjbIs)
 
 ## Fractal Trees
+
 Repo: https://github.com/tslAndy/FractalTree
 
-[![](https://img.youtube.com/vi/SWnHI6NVRRk/0.jpg)](https://www.youtube.com/watch?v=SWnHI6NVRRk)
+Video:
 
-
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/FractalTree.png)](https://www.youtube.com/watch?v=SWnHI6NVRRk)
 
 ## Colonization Tree
+
 Repo: https://github.com/tslAndy/ColonizationTree
+
+Video:
 
 [![](https://img.youtube.com/vi/AZTfV8RlQWg/0.jpg)](https://www.youtube.com/watch?v=AZTfV8RlQWg)
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Transport Tree
+
 Repo: https://github.com/tslAndy/TransportTree
 
+Video:
+
 [![](https://img.youtube.com/vi/IXi7ywQFxxg/0.jpg)](https://www.youtube.com/watch?v=IXi7ywQFxxg)
-
---------------------------------------------------------------------------------------------------------------------------------------------
-
 
 # Data structures / algorithms
 
 ## A*
+
 - Implementation of several A* algorithms
 - Basic A*
 - JPS
@@ -444,11 +582,12 @@ Repo: https://github.com/tslAndy/TransportTree
 
 Repo: https://github.com/tslAndy/AStar
 
-[![](https://img.youtube.com/vi/MRuAWzU31ME/0.jpg)](https://www.youtube.com/watch?v=MRuAWzU31ME)
+Video:
 
---------------------------------------------------------------------------------------------------------------------------------------------
+[![](./Images/AStar.png)](https://www.youtube.com/watch?v=MRuAWzU31ME)
 
 ## Job System
+
 - Basic implementation of Unity-like job system
 - IJob / IJobParallelFor are implemented by using input / output degree (dependencies)
 - ThreadPool is used for running tasks 
@@ -456,12 +595,8 @@ Repo: https://github.com/tslAndy/AStar
 
 Repo: https://github.com/tslAndy/JobSystem
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Bitmap Roaring
+
 - Implementation of bitmap roaring data structure
 
 Repo: https://github.com/tslAndy/BitmapRoaring
-
---------------------------------------------------------------------------------------------------------------------------------------------
-
